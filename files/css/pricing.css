@@ -1,0 +1,32 @@
+.price{
+    text-align: center;
+    box-shadow: 7px 7px 20px #eaeaea;
+    
+}
+.price li{
+    list-style-type: none;
+    text-align: left;
+}
+.price h1{
+    color: #C85C8E;
+}
+.for{
+    font-size: xx-large;
+}
+ul span{
+  
+    color: #C85C8E;
+}
+.buy{
+    border-radius: 30px;
+    background-color: #252525;
+    color: #fff;
+}
+.buy2{
+    border-radius: 30px;
+    background-color: #C85C8E;
+    color: #fff;
+}
+.buy:hover{
+    background-color: #C85C8E;
+}

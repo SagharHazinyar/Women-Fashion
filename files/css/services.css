@@ -1,0 +1,27 @@
+.icon-text{
+    border: 1px solid #EAE0DA;
+    text-align: center;
+    /* margin: 0.3px; */
+}
+.icon-text:hover{
+    background-color: #C85C8E;
+    color: #fff;
+    transition: 1s;
+}
+.box-icon{
+    width: max-content;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    background-color: #C85C8E;
+    box-shadow: 4px 4px #ff96c7bc;
+    border-radius: 3px;
+}
+.icon-text:hover .box-icon{
+    background-color: #fff;
+    color: #C85C8E;
+    transition: 1s;
+}
+.skills{
+    text-align: center;
+}

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+    <link rel="shortcut icon" href="files/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="files/animate.css/animate.min.css">
+    <link rel="stylesheet" href="files/css/Header & Fotter styles .css">
+    <link rel="stylesheet" href="files/css/portfolio.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+                 <!-- --------- before navbar --------- -->
+    <section id="top" class=" container-fluid d-flex align-items-center bg-dark text-light p-1">
+        <div class="top-link container d-flex justify-content-center ">
+            <i class="fa-regular fa-envelope d-flex align-items-center"> </i>  <a href="mailto:contact@example.com" class="text-light">contact@example.com</a> &nbsp;
+            <i class="fab-regular fa-mobile d-flex align-items-center"> </i><span>+1 5589 55488 55</span>
+        </div>
+        <div class="social-links p-1 align-items-center text-secondary">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </section>
+   <!-- ------ navbar ----- -->
+   <header id="header" class="d-flex sticky-top align-items-center" >
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <nav class="navbar navbar-background navbar-expand-lg navbar-light bg-white p-3">
+                <a href="#index.html" class="navbar-brand font-weight-bold"><span style="color:#C85C8E;">|</span> Women Fashion </a>
+
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbar" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center " id="navbar">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-ithem "><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-ithem"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-ithem"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-ithem"><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li class="nav-ithem"><a href="team.html" class="nav-link">Team</a></li>
+                    <li class="nav-ithem"><a href="pricing.html" class="nav-link ">Pricing</a></li>
+                    <li class="nav-ithem"><a href="blog.html" class="nav-link">Blog</a></li>
+
+                    <div class="dropdown ">
+                            <a 
+                            href="#" 
+                            class="dropdown-toggle nav-link" 
+                            data-toggle="dropdown">
+                            Drop Down
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-ithem"><a href="#" class="nav-link">Drop Down 1</a></li>
+                          <li class="nav-ithem"><a href="#" class="nav-link">Drop Down 2</a></li>
+                          <li class="nav-ithem"><a href="#" class="nav-link">Drop Down 3</a></li>
+                          <li class="nav-ithem"><a href="#" class="nav-link">Drop Down 4</a></li>
+                        </ul>
+                      </div>
+                            <li class="nav-ithem"><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- --------- Portifolio Title---------  -->
+
+    <div class="container-fluid bg-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12  p-4">
+                                <span style="color: #C85C8E;">Home</span> / Portfolio
+                                <h3>Portfolio</h3>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+
+    <!-- ---------   Tab pan ---------  -->
+
+    <ul class="nav nav-pills tabs pt-2 pb-2 " >
+        <li class="nav-item">
+          <a 
+          class="nav-link m-2 " 
+          style="background-color: #C85C8E; color: #fff;" 
+          data-toggle="pill" 
+          href="#All">All</a>
+        </li>
+        <li class="nav-item">
+          <a 
+          class="nav-link m-2 " 
+          style="background-color: #C85C8E; color: #fff;" 
+          data-toggle="pill" 
+          href="#App">Fashonable</a>
+        </li>
+        <li class="nav-item">
+          <a 
+          class="nav-link m-2 " 
+          style="background-color: #C85C8E; color: #fff;" 
+          data-toggle="pill" 
+          href="#Card">Sport</a>
+        </li>
+      </ul>
+      
+      <!-- Tab panes -->
+
+      <div class="container ">
+          <div class="tab-content">
+            <div class="tab-pane active" id="All">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_1.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_2.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_3.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_4.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_5.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_6.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_7.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_8.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_9.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <div class="tab-pane container fade" id="App">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_1.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_2.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_3.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="tab-pane container fade" id="Card">
+                <div class="row">
+                  
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_7.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_8.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img 
+                            src="files/images/port/portifolio_9.jpg" 
+                            alt="slide" 
+                            class="rounded tab-img mt-1 mb-1" 
+                            width="100%">
+                            <div class="card-text">
+                                <h3>Fashion</h3>
+                                <p>
+                                    It is so cool!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 m-auto pt-5 cl">
+                    <h4>Clients</h4>
+                    <span class="font-weight-bold " style="color: #C85C8E;">________</span>
+                    <p>
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
+                </div>
+            </div>
+
+
+            </div>
+          </div>
+      </div>
+          <!-- --------- last carosel --------- -->
+    <div class="carousel slide  " data-ride="carousel" id="slide">
+        <ul class="carousel-indicators">
+            <li data-target="#slide" data-slide-to="0" class="active"></li>
+            <li data-target="#slide" data-slide-to="1"></li>
+            <li data-target="#slide" data-slide-to="2"></li>
+           
+          </ul>
+        
+          <!-- The slideshow -->
+          <div class="carousel-inner clients-slider">
+              <div class="carousel-item active ">
+                  <img src="files/images/clients/client-1.png">
+                  <img src="files/images/clients/client-2.png">
+                  <img src="files/images/clients/client-3.png">
+                  <img src="files/images/clients/client-4.png">
+                  <img src="files/images/clients/client-5.png">
+                  <img src="files/images/clients/client-6.png">      
+            </div>
+            <div class="carousel-item">
+                
+                <img src="files/images/clients/client-2.png">
+                <img src="files/images/clients/client-3.png">
+                <img src="files/images/clients/client-4.png">
+                <img src="files/images/clients/client-5.png">
+                <img src="files/images/clients/client-6.png"> 
+                <img src="files/images/clients/client-7.png">  
+            
+            </div>
+            <div class="carousel-item">
+                
+                <img src="files/images/clients/client-3.png">
+                <img src="files/images/clients/client-4.png">
+                <img src="files/images/clients/client-5.png">
+                <img src="files/images/clients/client-6.png"> 
+                <img src="files/images/clients/client-7.png"> 
+                <img src="files/images/clients/client-8.png"> 
+            </div>
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev"  data-target="#slide" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" data-target="#slide" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+    </div>
+
+
+    <!-- --------- footer --------- -->
+
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row p-3 m-auto">
+                <div class="col-md-6">
+                    <h3>Our Newsletter</h3>
+                    <p>
+                        Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+                    </p>
+                </div>
+                <div class="col-md-6">
+                <form action="index.html" class="form-group  " >
+                        <div class="input-group pt-4">
+                            <input type="search" class="form-control">
+                            <input type="submit" class="form-control">
+                        </div>
+                </form>
+                </div>
+
+                <div class="col-md-3 p-3">
+                    <h6>USEFUL LINKS</h6>
+                    <ul>
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="index.html"> Home</a> </li>       
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="about.html"> About us</a> </li>       
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="services.html"> Services</a> </li>       
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="services.html"> Term of services</a> </li>       
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="services.html"> Privacy policy</a> </li>        
+                    </ul>   
+                </div>
+
+                <div class="col-md-3 p-3">
+                    <h6>OUR SERVICES</h6>
+                    <ul>
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="services.html"> Web Design</a> </li>       
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="services.html"> Web Development</a> </li>       
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="services.html"> Product Management</a> </li>       
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="services.html"> Marketing</a> </li>       
+                        <li class="m-1 pb-2"><i class="fa fa-angle-right mr-2"> </i><a href="services.html"> Graphic Design</a> </li>        
+                    </ul>   
+                </div>
+
+                <div class="col-md-3 p-3">
+                    <h6>CONTACT US</h6>
+                    <ul>
+                        <li class="m-1 pb-2">  A108 Adam Street</li>       
+                        <li class="m-1 pb-2"> New York, NY 535022</li>       
+                        <li class="m-1 pb-2"> United States </li>   
+                        <br>    
+                        <li><strong>Phone: </strong>+1 5589 55488 55</li>
+                        <li><strong>Email: </strong> info@example.com</li>
+                    </ul>   
+                </div>
+
+                <div class="col-md-3 p-3 ">
+                    <h6>About Eterna</h6>
+                    <p>
+                        Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus
+                    </p>
+                    <i class="fab fa-twitter icon "></i>
+                    <i class="fab fa-facebook icon"></i>
+                    <i class="fab fa-instagram icon"></i>
+                    <i class="fab fa-skype icon"></i>
+                    <i class="fab fa-linkedin icon"></i>
+                </div>
+                <hr>
+                <div class="col-sm-12 foo m-auto pt-5 mt-5">
+                    <p>© Copyright Saghar Hazinyar <span style="color: #C85C8E;">2023</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

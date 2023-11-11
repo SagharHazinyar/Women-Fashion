@@ -1,0 +1,11 @@
+.box{
+    text-align: center;
+    box-shadow: 7px 7px 10px #dddddd;
+}
+.box i{
+    padding: 15px;
+    /* margin: 10px; */
+    border: 1px dashed #C85C8E;
+    border-radius: 100%;
+    color: #C85C8E;
+}

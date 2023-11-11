@@ -1,0 +1,83 @@
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #C85C8E;
+}
+.carousel img{
+    opacity: 0.1;
+}
+.carousel span{
+    color: #C85C8E;
+}
+.carousel .btn{
+    background-color: #C85C8E;
+    border-radius: 30px;
+    color: #fff;
+}
+.carousel .btn:hover{
+    border-radius: 30px;
+    border: 2px solid #C85C8E;
+    background-color: rgba(255, 255, 255, 0);
+    color: #C85C8E;
+}
+.cart{
+    padding: 25px;
+    /* margin: 2px; */
+    margin : 20px 0px;
+    box-shadow: 3px 3px 10px #EAE0DA;
+    border-radius: 20px;
+}
+.cart:hover {
+    background-color: #C85C8E;
+    transition: 1s;
+    color: #fff;
+}
+.cart i{
+    color: #C85C8E;
+}
+.cart:hover i{
+    background-color: #C85C8E;
+    color: #fff;
+    transition: 1s;
+}
+.fa-circle-check{
+    color: #C85C8E;
+}
+.icon-text{
+    border: 1px solid #EAE0DA;
+    text-align: center;
+    /* margin: 0.3px; */
+}
+.icon-text:hover{
+    background-color: #C85C8E;
+    transition: 1s;
+    color: #fff;
+}
+.box-icon{
+    width: max-content;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    background-color: #C85C8E;
+    box-shadow: 4px 4px #d98db0;
+    border-radius: 3px;
+}
+.icon-text:hover .box-icon{
+    background-color: #fff;
+    color: #C85C8E;
+}
+.cl{
+    text-align: center;
+}
+.clients-slider img{
+    width: 114px;
+    height: 50px;
+    margin: 40px;
+    margin-bottom: 60px;
+    opacity: 0.1;
+    align-self: center;
+}
+.clients-slider img:hover{
+    opacity: 1;
+}

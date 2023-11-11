@@ -1,0 +1,30 @@
+.links{
+    color: #DDDDDD;
+}
+.read-more{
+    background-color: #C85C8E;
+    color: #fff;
+}
+.shadow{
+    box-shadow: 7px 7px 20px #eaeaea;
+}
+.blog-ul li{
+    margin: 3px;
+    margin-left: -20px;
+    list-style-type: none;
+}
+.blog-ul a{
+    color: #252525;
+}
+.blog-ul a:hover{
+    text-decoration: none;
+    color: #C85C8E;
+}
+.blog-ul span{
+    color: #DDDDDD;
+    font-size: small;
+    margin-left: 5px;
+}
+.page-link{
+    color: #C85C8E;
+}

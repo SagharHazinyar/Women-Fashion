@@ -1,0 +1,10 @@
+.team-member{
+    text-align: center;
+    box-shadow: 3px 3px 10px #eaeaea;
+}
+.team-member i{
+    color: #B2B2B2;
+}
+.team-member i:hover{
+    color: #C85C8E;
+}
